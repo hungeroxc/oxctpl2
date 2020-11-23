@@ -8,6 +8,11 @@ module.exports = {
         'property-no-unknown': [true, { ignoreProperties: ['composes', '/^var/'] }],
         'order/order': ['custom-properties', 'declarations'],
         'order/properties-alphabetical-order': true,
-        linebreaks: 'unix'
+        linebreaks: [
+            'unix',
+            {
+                message: '666'
+            }
+        ]
     }
 }
