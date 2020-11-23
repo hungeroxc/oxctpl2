@@ -41,7 +41,10 @@ const conf = {
     plugins,
     optimization,
     target: 'web',
-    devtool: APP_ENV === 'dev' ? 'eval-source-map' : APP_ENV === 'prod' ? 'source-map' : false
+    devtool: APP_ENV === 'dev' ? 'eval-source-map' : APP_ENV === 'prod' ? 'source-map' : false,
+    devServer: {
+        historyApiFallback: true
+    }
 }
 
 module.exports = conf

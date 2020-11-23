@@ -32,9 +32,11 @@
         "@commitlint/cli": "^11.0.0",
         "@commitlint/config-conventional": "^11.0.0",
         "@svgr/webpack": "^5.5.0",
+        "@types/loadable__component": "^5.13.1",
         "@types/node": "^14.14.9",
         "@types/react": "^17.0.0",
         "@types/react-dom": "^17.0.0",
+        "@types/react-router-dom": "^5.1.6",
         "@typescript-eslint/eslint-plugin": "^4.8.1",
         "@typescript-eslint/parser": "^4.8.1",
         "babel-loader": "^8.2.1",
@@ -79,6 +81,7 @@
         "webpack-dev-server": "^3.11.0"
     },
     "dependencies": {
+        "@loadable/component": "^5.14.1",
         "antd": "^4.8.5",
         "axios": "^0.21.0",
         "bourbon": "^7.0.0",
@@ -86,6 +89,7 @@
         "mobx-react": "^7.0.5",
         "qs": "^6.9.4",
         "react": "^17.0.1",
-        "react-dom": "^17.0.1"
+        "react-dom": "^17.0.1",
+        "react-router-dom": "^5.2.0"
     }
 }
