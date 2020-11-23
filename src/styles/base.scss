@@ -1,0 +1,4 @@
+// 该文件为所有公共scss入口，因为所有scss文件都依赖,此文件包括此文件依赖的所有模块都不能有实际的css代码输出，避免过多重复css代码
+@import './var.scss';
+// -------- bourbon --------
+@import '~bourbon/core/_bourbon.scss';
