@@ -11,7 +11,7 @@ module.exports = {
         linebreaks: [
             'unix',
             {
-                message: '666'
+                message: '换行错误'
             }
         ]
     }
